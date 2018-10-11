@@ -1,0 +1,73 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: transparent;
+}
+a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover {
+    color: #dc8c3c;
+}
+.mainSection{
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainSection .container-fluid{
+    width: 1100px;
+}
+.mainSection p,
+.mainSection h1{
+    color: #fff;
+    text-align: center;
+}
+.mainSection p{
+    
+}
+.mainSection h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+.mainSection .container{
+/*    padding-top: 200px;*/
+}
+.btn-group-lg>.btn, .btn-lg {
+    margin-right: 20px;
+    margin-bottom: 65px;
+    width: 175px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.btn-group-lg>.btn, .btn-lg:hover{
+    color: #dc8c3c;
+    border-color: #dc8c3c;
+    background-color: transparent;
+}
+.subContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(250, 250, 250,0.9);
+}
+.bg-img{
+    background-image: url(../img/helmet-rot.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.h2, h2 {
+    font-size: 36px;
+}
+.bulldozer{
+    margin-left: -130px
+}
+.border {
+    border: 2px solid #000!important;
+}
