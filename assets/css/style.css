@@ -33,8 +33,8 @@ a:hover {
     margin-bottom: 40px;
     font-size: 60px;
 }
-.mainSection .container{
-/*    padding-top: 200px;*/
+.container{
+    width: 920px;
 }
 .btn-group-lg>.btn, .btn-lg {
     margin-right: 20px;
@@ -62,12 +62,28 @@ a:hover {
     background-size: 200px;
     background-repeat: no-repeat;
 }
+.bg-img2{
+    background-image: url(../img/drill-rot.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
 .h2, h2 {
     font-size: 36px;
 }
+.h4, h4 {
+    font-size: 14px;
+}
 .bulldozer{
-    margin-left: -130px
+    margin-left: -230px
+}
+.truck{
+    margin-right: 130px;
 }
 .border {
     border: 2px solid #000!important;
+}
+.position-absolute{
+    right: 0px;
+    top: -23px;
 }
